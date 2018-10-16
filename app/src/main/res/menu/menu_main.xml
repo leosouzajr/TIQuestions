@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.leona.tiquestions.view.TelaCadastroPerguntasActivity">
+    <item
+        android:id="@+id/act_cadastro_pergunta"
+        android:orderInCategory="100"
+        android:title="Cadastrar pergunta"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/act_cadastro_equipe"
+        android:orderInCategory="100"
+        android:title="Cadastrar Equipe"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/act_ver_perguntas"
+        android:orderInCategory="100"
+        android:title="Ver perguntas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/act_reiniciar_sorteio"
+        android:orderInCategory="100"
+        android:title="Reiniciar perguntas"
+        app:showAsAction="never" />
+</menu>
